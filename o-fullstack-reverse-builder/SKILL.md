@@ -24,10 +24,10 @@ description: "从WebHack导出的Mock Server项目逆向还原完整前后端项
 ## 快速参考
 
 ```
-流程: Phase 0 → F1 → F2 → F3 → B1 → B2 → B3 → B4 → B5 → I0 → I1 → I2 → I3 → DTE → D
+流程: Phase 0 → F0.5 → F1 → F2 → F3 → B1 → B2 → B3 → B4 → B5 → I0 → I1 → I2 → I3 → DTE → D
 
 Phase 0: 共享分析（解析数据源 → 生成共享上下文）
-Phase F: 前端生成（F1 Hash分析 → F2 组件重建 → F3 审查）
+Phase F: 前端生成（F0.5 编译产物分析 → F1 Hash分析 → F2 组件重建 → F3 审查）
 Phase B: 后端生成（B1 路由图谱 → B2 Entity/DTO → B3 项目结构 → B4 代码生成 → B5 审查）
 Phase I: 集成验证（I0 Response符合性 → I1 一致性检查 → I2 交叉修正 → I3 最终验证）
 Phase DTE: 调用 design-then-execute 迭代验证
