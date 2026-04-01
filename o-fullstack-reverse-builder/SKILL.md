@@ -384,7 +384,7 @@ Controller/Service/Repository、ApiResponse\<T\>、种子数据、ErrorCodes.cs�
 
 ## Phase D：交付文件生成
 
-生成 CONFIGURATION.md、Docker 文件、环境变量模板、.gitignore、README.md。
+生成 CONFIGURATION.md、环境变量模板、.gitignore、README.md。
 
 详见 [phase-specs.md](references/phase-specs.md)
 
@@ -424,4 +424,4 @@ Controller/Service/Repository、ApiResponse\<T\>、种子数据、ErrorCodes.cs�
 
 ## 依赖 Skills
 
-`design-then-execute` | `dotnet-backend` | `vue` | `typescript-pro` | `docker-expert`
+`design-then-execute` | `dotnet-backend` | `vue` | `typescript-pro`

@@ -544,27 +544,18 @@ ReverseBuilder/backend/src/MyApp/
 7. 日志级别
 8. 种子数据开关
 
-### D2：Docker 交付文件
-
-生成：
-
-- `Dockerfile.backend`
-- `Dockerfile.frontend`
-- `docker-compose.yml`
-- `docker/nginx.conf`
-
-### D3：环境变量模板
+### D2：环境变量模板
 
 至少生成：
 
 - `frontend/.env.example`
 - `.env.example`
 
-### D4：.gitignore 补充
+### D3：.gitignore 补充
 
 补充前端构建产物、后端构建产物、日志、环境变量、IDE 文件。
 
-### D5：README.md 追加
+### D4：README.md 追加
 
 README 至少应说明：
 
